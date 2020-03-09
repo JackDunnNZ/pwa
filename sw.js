@@ -2,12 +2,12 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('video-store').then(function(cache) {
      return cache.addAll([
-       '/index.html',
-       '/js/iai.js',
-       '/css/bb.css',
-       '/css/iai.css',
-       '/css/materialize.css',
-       '/css/materialize-icons.css',
+       'index.html',
+       'js/iai.js',
+       'css/bb.css',
+       'css/iai.css',
+       'css/materialize.css',
+       'css/materialize-icons.css',
      ]);
    })
  );
