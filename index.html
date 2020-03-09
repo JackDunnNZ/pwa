@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <title>Optimal Trees Prediction Tool</title>
+    <script src="js/iai.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/materialize-icons.css" rel="stylesheet">
+    <link href="css/bb.css" rel="stylesheet">
+    <link href="css/iai.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper primary" id="navbar">
+        <a class="brand-logo">
+          <img src="icon/icon-192.png">
+          Optimal Trees Prediction Tool
+        </a>
+      </div>
+        <div class="progress">
+          <div class="determinate" style="width: 0%"></div>
+        </div>
+      </nav>
+
+    </div>
+    <div class="container row" id="questionnaire">
+      <div class="container-col row col s12 m10 push-m1 l8 push-l2 xl6 push-xl3">
+        <div id="question-container">
+
+          <div id="dynamic-questions"></div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large" style="background-color:#f69019;">
+        <i class="large material-icons" style="font-size:2.5rem;">refresh</i>
+      </a>
+    </div>
+
+    <button class="add-button" style="position: absolute; top: 1px; left: 1px;">Add to home screen</button>
+
+  </body>
+</html>
